@@ -1,0 +1,39 @@
+.container {
+    width: 980px;
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: gray
+}
+
+li {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li:first-child {
+    border-left: none;
+    background-color: green;
+    float: left;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    background-color: gray;
+}
+
+li a:hover {
+    background-color: #111;
+    display: block;
+}
+
