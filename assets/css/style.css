@@ -1,3 +1,5 @@
+/* Classes used for Navbar and general format */
+
 body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
@@ -62,12 +64,6 @@ li:first-child {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
-.leftProfile {
-    width: 360px;
-    padding: 0px 10px 10px 0px;
-    float: left;
-}
-
 h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #4aaaa5;
@@ -84,6 +80,16 @@ h1 {
         border-top: 5px solid #4aaaa5;
         color: #ffffff;
 }
+
+/* Class used in About Me Image*/
+
+.leftProfile {
+    width: 360px;
+    padding: 0px 10px 10px 0px;
+    float: left;
+}
+
+/* Classes used for Forms in Contact Me*/
 
 input[type=text] {
     width: 100%;
@@ -107,6 +113,8 @@ input[type=submit] {
     border: none;
     font-size: 16px;
 }
+
+/* Classes used for Portfolio grid and text wrap banners */
 
 td{
     width: 33%;
